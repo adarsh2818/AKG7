@@ -16,7 +16,7 @@ y=time.time()
 t=y-x
 if t==z:
     print('ohhhh....ITS A TIE!!!')
-if t>z:
+if t<z:
     print('\n\n      PLAYER 2 WINS!!')
 else:
     print('\n\n      PLAYER 1 WINS!!')
